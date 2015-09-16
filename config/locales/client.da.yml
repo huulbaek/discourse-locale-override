@@ -17,9 +17,59 @@
 
 da:
   js:
+    topics:
+      bulk:
+        change_tags: "Skift mærker"
+        choose_new_tags: "Vælg nye mærker til disse emner:"
+        changed_tags: "Mærkerne på emnerne blev skiftet."
+        
     tagging:
-      all_tags: "Alle tags"
-      changed: "tags ændret:"
-      tags: "Tags"
-      choose_for_topic: "vælg valgfrit et tag til dette emne"
-      topics_tagged: "Emner tagget med <span class='discourse-tag'>{{tag}}</span>"
+      all_tags: "Alle mærker"
+      selector_all_tags: "alle mærker"
+      changed: "mærker skiftet:"
+      tags: "Mærker"
+      choose_for_topic: "valgfrit valg af mærker til dette emne"
+      delete_tag: "Slet mærke"
+      delete_confirm: "Er du sikker på at du vil slette mærket?"
+      rename_tag: "Omdøb mærke"
+      rename_instructions: "Vælg et nyt navn til mærket:"
+      sort_by: "Sorter efter:"
+      sort_by_count: "antal"
+      sort_by_name: "navn"
+
+    notifications:
+      watching:
+        title: "Kigger"
+        description: "Du holder automatisk øje med alle nye emner med dette mærke. Du får besked om alle nye indlæg og emner og antallet af ulæste og nye indlæg kan ses ved siden af emnet."
+        
+      tracking:
+        title: "Følger"
+        description: "Du følger automatisk alle nye emner med dette mærke. Du kan se antal ulæste nye indlæg ved siden af emnet."
+      regular:
+        title: "Normal"
+        description: "Du får besked hvis nogen nævner dit @navn eller svarer på dit indlæg."
+      muted:
+        title: "Lydløs"
+        description: "Du får ingen beskeder om emner med dette mærke."
+
+    topics:
+      none:
+        unread: "Du har ingen ulæste emner."
+        new: "Du har ingen nye emner."
+        read: "Du har ikke læste nogen emner endnu."
+        posted: "Du har ikke skrevet i nogen emner endnu."
+        latest: "Der er ingen seneste emner."
+        hot: "Der er ingen hotte emner."
+        bookmarks: "Du har ikke bogmærket nogen emner endnu."
+        top: "Der er ingen top emner."
+        search: "Der er ingen søgeresultater."
+      bottom:
+        latest: "Der er ingen seneste emner."
+        hot: "Der er ikke flere hotte emner."
+        posted: "Der er ikke flere emner."
+        read: "Der er ikke flere læste emner."
+        new: "Der er ikke flere nye emner."
+        unread: "Der er ikke flere ulæste emner."
+        top: "Der er ikke flere top emner."
+        bookmarks: "Der er ikke flere bogmærkede emner."
+        search: "Der er ikke flere søgeresultater."
